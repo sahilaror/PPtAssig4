@@ -1,0 +1,26 @@
+ANS 1		An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+
+The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.
+
+ANS 2		When a subclass extends an abstract class, the abstract class's abstract methods must be implemented. This contains the abstract class's concrete methods.
+
+The subclass must first generate an object of the abstract class to invoke a concrete method of the abstract class. The subclass may then invoke the concrete methods of the abstract class on the object after it has been generated.
+
+ANS 3		Functional interfaces are a first-class citizen of Java and their implementation can be treated as lambda expressions. Functional interfaces make it easier to write functional-style code by reducing the verbosity of anonymous inner classes
+
+ANS 4   	An Interface in Java programming language is defined as an abstract type used to specify the behavior of a class. An interface in Java is a blueprint of a behaviour. A Java interface contains static constants and abstract methods.
+
+The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not the method body. It is used to achieve abstraction and multiple inheritance in Java. In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body. Java Interface also represents the IS-A relationship.
+
+ANS 5		The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java. In other words, you can say that interfaces can have abstract methods and variables.
+
+ANS 6		Lambda Expressions were added in Java 8. A lambda expression is a short block of code which takes in parameters and returns a value.
+
+
+ANS 7		A lambda expression is an anonymous or unnamed method in Java. It doesn't execute on its own and used to implement methods that are declared in a functional interface. If we want to pass a lambda expression as a method parameter in java, the type of method parameter that receives must be of functional interface type.
+
+ANS8		A functional interface is an interface that contains only one abstract method. They can have only one functionality to exhibit. From Java 8 onwards, lambda expressions can be used to represent the instance of a functional interface.
+
+ANS9		Lambda expressions improve code readability and do not require interpretation. Lambdas allow you to write concise code. It encourages the use of functional programming. It simplifies variable scope and encourages code reusability.
+
+ANS 10		The lambda must contain the same number of parameters as the delegate type. Each input parameter in the lambda must be implicitly convertible to its corresponding delegate parameter. The return value of the lambda (if any) must be implicitly convertible to the delegate's return type
